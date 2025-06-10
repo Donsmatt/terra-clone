@@ -1,0 +1,30 @@
+:root {
+  --clr-background: #1A1F1A;
+  --clr-text: #ffffff;
+  --clr-text-heading: #2F2F2F;
+  --clr-text-subheading: #0C180C;
+  --clr-text-light: #6A6A6A;
+  --clr-text-dark: #474747;
+  --clr-accent: #52A350;
+
+  --ff-heading: 'Darker Grotesque', sans-serif;
+  --ff-body: 'Inter', sans-serif;
+  --fs-base: 16px;
+  --fs-heading: 2rem;
+  --fs-body: 1rem;
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --transition: all 0.3s ease-in-out;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
