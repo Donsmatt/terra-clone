@@ -1,0 +1,91 @@
+.whatYouWillGainSection {
+    margin: 100px;
+
+}
+
+.firstContainer {
+   display: flex;
+   gap: 70px;
+}
+
+.textGrid {
+    max-width: 22rem;
+}
+
+.titleText {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    color: #2F2F2F;
+    line-height: 48px;
+    font-family: 'Darker Grotesque';
+
+}
+
+.green {
+  color: #52a350;
+}
+
+.textDescription {
+    margin-top: 30px ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #474747;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.signUp {
+    margin-top: 30px ;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 7px;
+    background-color: #52a350;
+    color: #fff;
+    font-size: 14px;
+     font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.feature-box {
+  padding: 32px;
+}
+
+.feature-icon {
+  font-size: 32px;
+  color: #00a651;
+  margin-bottom: 16px;
+  display: block;
+}
+
+
+.feature-box h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Darker Grotesque';
+  line-height: 28px;
+  margin-bottom: 12px;
+  color: #2f2f2f;
+  
+
+}
+
+.feature-box p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  line-height: 20px;
+  color: #555;
+  
+}

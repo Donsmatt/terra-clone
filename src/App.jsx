@@ -1,7 +1,11 @@
+import WhatYouGain from "./components/WhatYouGain";
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <WhatYouGain />
+    </>
+  );
+};
 
-export default App
+export default App;
