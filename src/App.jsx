@@ -1,6 +1,13 @@
+import Hero from "./ui/Hero"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <main>
+        <Hero />
+      </main>
+      <footer></footer>
+    </div>
   )
 }
 
