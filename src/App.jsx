@@ -1,6 +1,10 @@
+import Testimonial from "./components/Testimonial"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Testimonial/>
+    </div>
   )
 }
 
