@@ -1,0 +1,181 @@
+.whatYouWillGainSection {
+   margin: 150px 0px;
+}
+
+.firstContainer {
+  padding: 0px 120px;
+   display: flex;
+   gap: 70px;
+}
+
+.textGrid {
+    max-width: 22rem;
+}
+
+.titleText {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    color: #2F2F2F;
+    line-height: 48px;
+    font-family: 'Darker Grotesque';
+}
+
+.green {
+  color: #52a350;
+}
+
+.textDescription {
+    margin-top: 30px ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #474747;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.signUp {
+    margin-top: 30px ;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 7px;
+    background-color: #52a350;
+    color: #fff;
+    font-size: 14px;
+     font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.feature-box {
+  padding: 32px;
+}
+
+.feature-icon {
+  font-size: 32px;
+  color: #00a651;
+  margin-bottom: 16px;
+  display: block;
+}
+
+
+.feature-box h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Darker Grotesque';
+  line-height: 28px;
+  margin-bottom: 12px;
+  color: #2f2f2f;
+  
+
+}
+
+.feature-box p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  line-height: 20px;
+  color: #555;
+  
+}
+
+.secondContainer {
+  margin-top: 70px;
+  display: flex;
+  gap: 40px;
+}
+
+.card1 {
+  padding: 0px 20px;
+}
+
+.cardImage {
+  width: 40rem;
+  height: 42rem;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  width: 22rem;
+}
+
+
+.cardText {
+  align-content: center;
+}
+
+.perksAccordion {
+  max-width: 700px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0; 
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+.accordionHeader {
+  background: #fafafa;
+  padding: 7px 13px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #2f2f2f;
+}
+
+.accordionHeader.active {
+  color: green;
+}
+
+.accordionContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 24px;
+  margin: 0;
+  color: #3f473f;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #e0e0e0;
+}
+
+
+.accordionContent.show {
+  max-height: 500px;
+  padding: 20px 24px;
+}
+
+.accordionContent li {
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 16px;
+  color: #2f2f2f;
+}
+
+.accordionHeader.active .icon {
+  color: green;
+}
