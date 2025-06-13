@@ -6,7 +6,7 @@ const Testimonial = () => {
   return (
     <div>
         <div className="center-heading"> 
-            <h3 className="mb-2">What others have <span className="green__text">gained</span></h3>
+            <h2 className="mb-2">What others have <span className="green__text">gained</span></h2>
             <p >Read all about how the Terra Learning internship has impacted other youths and helped them achieve their goals.</p>
         </div>
       <div className="full__width">
