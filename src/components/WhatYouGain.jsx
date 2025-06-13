@@ -7,11 +7,9 @@ const WhatYouGain = () => {
 
   const toggleAccordion = () => setPerksOpen(!perksOpen);
 
-
-
   return (
     <section className="whatYouWillGainSection">
-      {/* End of What you stand to gain*/}
+      {/* Start of What you stand to gain */}
       <div className="firstContainer">
         <div className="textGrid">
           <h2 className="titleText">
@@ -22,7 +20,7 @@ const WhatYouGain = () => {
             youths in various fields across Engineering, Marketing, Product and
             Design.
           </p>
-          <button className="signUp">Sign up for FREE</button>
+          <button className="signUp desktop-only">Sign up for FREE</button>
         </div>
 
         <div className="features-grid">
@@ -59,8 +57,13 @@ const WhatYouGain = () => {
             </p>
           </div>
         </div>
+
+        {/* Mobile-only button after the grid */}
+        <div className="mobile-only mobile-signup-button">
+          <button className="signUp">Sign up for FREE</button>
+        </div>
       </div>
-      {/* End of What you stand to gain*/}
+      {/* End of What you stand to gain */}
 
       {/* Start Learn in-demand skills seamlessly Section */}
       <div className="secondContainer">
@@ -85,13 +88,18 @@ const WhatYouGain = () => {
             </p>
 
             {/* Start Perks Accordion Section */}
-             <div className="perksAccordion">
+            <div className="perksAccordion">
               <div
                 className={`accordionHeader ${perksOpen ? "active" : ""}`}
                 onClick={toggleAccordion}
               >
-                <span style={{ color: perksOpen ? "green" : "#2f2f2f" }}>Perks</span>
-                <span className="icon" style={{ color: perksOpen ? "green" : "#2f2f2f" }}>
+                <span style={{ color: perksOpen ? "green" : "#2f2f2f" }}>
+                  Perks
+                </span>
+                <span
+                  className="icon"
+                  style={{ color: perksOpen ? "green" : "#2f2f2f" }}
+                >
                   {perksOpen ? "−" : "+"}
                 </span>
               </div>

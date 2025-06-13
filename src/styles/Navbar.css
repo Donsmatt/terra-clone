@@ -1,0 +1,59 @@
+.nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #080808;
+  z-index: 1000;
+  padding: 20px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__inner {
+  max-width: 1200px;
+  height: 100%; 
+  display: flex;
+  align-items: center; 
+}
+
+.nav__links-desktop {
+margin-left: 4rem;
+}
+
+.nav__links-desktop a {
+  text-decoration: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: #fff;
+  margin-right: 3rem;
+}
+
+.nav__btn {
+  padding: 0.9em 2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.nav__btn--signin {
+  background: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+   margin-right: 2rem;
+}
+
+.nav__btn--signup {
+  background: green;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+}

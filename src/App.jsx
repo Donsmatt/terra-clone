@@ -1,9 +1,9 @@
-import WhatYouGain from "./components/WhatYouGain";
+import Homepage from "./components/Homepage";
 
 const App = () => {
   return (
     <>
-      <WhatYouGain />
+      <Homepage />
     </>
   );
 };
