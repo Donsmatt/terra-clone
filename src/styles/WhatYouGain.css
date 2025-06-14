@@ -1,6 +1,7 @@
 .whatYouWillGainSection {
   margin: var(--spacing-xxxl) var(--spacing-lg);
   max-width: 1400px;
+  margin: 100px auto;
 }
 
 .firstContainer {

@@ -4,7 +4,7 @@
   border-radius: calc(var(--border-radius) * 2);
   padding: 2rem;
   flex: 0 0 auto;
-  min-width: 480px;
+  width: 480px;
   min-height: 280px;
   scroll-snap-align: start;
   transition: transform 0.3s ease;
