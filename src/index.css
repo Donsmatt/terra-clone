@@ -260,103 +260,37 @@ a {
 
 /* Victor's css  */
 
-
-.card__box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-}
-.card {
-  position: relative;
-  border: 1px solid #aba9a9;
-  border-radius: 22px;
-  margin-top: 10rem;
-  min-height: 500px;
-  
+.testimonial {
+  padding: var(--spacing-xxxl) var(--spacing-lg);
 }
 
-.card__image-box img {
-  width: 100%;
-}
-.card__details {
-  padding: 2rem 3rem;
-
+.testimonial__header {
+  text-align: center;
 }
 
-.card__details p {
-  color: #686767;
-  font-size: 1.3rem;
+.testimonial__header-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-xlarge);
+  color: var(--clr-text-subheading);
+  margin-bottom: 0.5rem;
 }
 
-.card__details h5 {
-  font-size: 1.8rem;
-  font-weight: bold;
+.testimonial__header-text {
+  font-size: var(--fs-body);
+  color: var(--clr-text-dark);
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
-.mb-2 {
-  margin-bottom: 2.5rem;
-}
-
-.type {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: .9rem;
-  border: 1.8px solid rgb(4, 224, 4);
-  padding: .5rem 1rem;
-  background-color: var(--clr-text-heading);
-  color: rgb(5, 216, 5);
-  border-radius: 50px;
-}
-
-.full__width {
-  width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-top: 5rem;
-}
-
-.big__card {
-  /* font-size: 1.2rem; */
-  color: #656565;
-  border: 1px solid #c2c2c2;
-  padding: 2.5rem;
-  background-image: url("testimonial-background.png");
-  border-radius: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  min-height: 440px;
-}
-
-.big__card span {
-  display: block;
-}
-
-.big__card span:first-child {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: .5rem;
-}
-
-.big__text {
-  font-size: 1.2rem;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.flex img {
-  width: 18%;
-}
-
-.flex div {
-  margin-left: 1rem;
+.testimonial__subheader {
+  font-family:  var(--ff-heading);
+  text-align: center;
+  font-size: var(--fs-subheading);
+  font-weight: var(--fw-bold);
+  color: var(--clr-text-subheading);
+  margin-bottom: 5rem;
 }
 
 .img__container {
@@ -389,80 +323,17 @@ a {
   }
 }
 
-.row {
-  max-width: 80rem;
-  margin: 30px auto;
-}
-
-.center-heading {
+.testimonial__signup {
   text-align: center;
-  font-size: 1.1rem;
-  margin-top: 5rem;
 }
 
-.center-heading h2 {
-  font-size: 3rem;
+.testimonial__signup h2 {
+  font-family:  var(--ff-heading);
+  text-align: center;
+  font-size: var(--fs-large);
+  font-weight: var(--fw-bold);
   color: var(--clr-text-subheading);
-  margin-bottom: 1.5rem;
-  
+  margin-bottom: 2rem;
 }
 
-.center-heading p {
-  width: 30%;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-
-.green__text {
-  color: green;
-}
-
-.footprint {
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 5%;
-  font-weight: bold;
-}
-
-.sign__up {
-  text-align: center;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
-.sign__up h2 {
-  color: #0C180C;
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.sign__up button {
-  margin-top: 3rem;
-  padding: 1.3rem 2.8rem;
-  border: none;
-  background-color: #52A350;
-  color: white;
-  border-radius: 8px;
-  font-size: 1.2rem;
-}
-
-.sign__up button:hover {
-  background-color: #a3d9a2;
-  cursor: pointer;
-}
-
-
-/* ======= MEDIA QUERIES (MEDIUM DEVICES) ======= */
-
-@media only screen and (max-width: 800px) {
-  
-  
-}
-
-/* ===== MEDIA QUERIES (EXTRA MEDIUM DEVICES) ====== */
-
-@media screen and (max-width: 600px) {
-  
-  
-}
 

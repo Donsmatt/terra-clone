@@ -1,5 +1,5 @@
 .whatYouWillGainSection {
-   margin: 150px 0px;
+  margin: var(--spacing-xxxl) var(--spacing-lg);
 }
 
 .firstContainer {

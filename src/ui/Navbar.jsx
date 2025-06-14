@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import SignModal from "./SignModal";
 import "../styles/Navbar.css";
 import logo from "../assets/images/logo.svg";
+import SignModal from "../components/SignModal";
 
 const Navbar = () => {
   const [modal, setModal] = useState(null);
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
