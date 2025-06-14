@@ -1,15 +1,23 @@
-.card_2 {
+.card__2 {
   display: flex;
   flex-direction: column;
   border-radius: calc(var(--border-radius) * 3);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 320px;
-  height: 400px;
+  width: 380px;
+  height: 450px;
   overflow: hidden;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
-.card_2 img {
+.card__2-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.card__2 img {
   width: 100%;
   flex: 1;
   object-fit: cover;
@@ -17,7 +25,7 @@
   border-top-right-radius: calc(var(--border-radius) * 3);
 }
 
-.card_2-details {
+.card__2-details {
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -26,14 +34,14 @@
 }
 
 
-.card_2-details h4 {
+.card__2-details h4 {
   font-size: var(--fs-subheading);
   font-weight: var(--fw-bold);
   color: var(--clr-text-dark);
   margin-bottom: 0.5rem;
 }
 
-.card_2-details p {
+.card__2-details p {
   font-size: var(--fs-small);
   color: var(--clr-text-light);
   line-height: 1.5;

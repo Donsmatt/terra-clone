@@ -10,19 +10,22 @@ const ProductData = [
     img: internshipCardImg,
     imgAlt: "Internship Program Logo",
     title: "Internship",
-    text: "Learn soft & hard skills in 4 weeks"
+    text: "Learn soft & hard skills in 4 weeks",
+    badge: false
   },
   {
     img: certificationCardImg,
     imgAlt: "Certification Logo",
     title: "Certification",
-    text: "Get a certificate of completion from Terra Learning."
+    text: "Get a certificate of completion from Terra Learning.",
+    badge: true,
   },
   {
     img: bootcampCardImg,
     imgAlt: "Bootcamp Program Logo",
     title: "Bootcamp",
-    text: "Join a team of brillant minds to build a startup, a strong portfolio and worls class products."
+    text: "Join a team of brillant minds to build a startup, a strong portfolio and worls class products.",
+    badge: true,
   }
 ]
 
@@ -36,6 +39,7 @@ const ProductCard = () => {
             imgAlt={product.imgAlt}
             title={product.title}
             text={product.text}
+            badge={product.badge}
           />
         ))}
     </div>

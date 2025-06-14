@@ -1,0 +1,10 @@
+.badge {
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  font-size: var(--fs-tiny);
+  font-weight: var(--fw-normal);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--clr-accent);
+  border: 2px solid var(--clr-accent);
+  border-radius: 50px;
+}

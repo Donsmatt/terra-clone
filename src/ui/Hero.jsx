@@ -20,6 +20,7 @@ const Hero = () => {
         </div>
         <div className="hero-image">
           <img src={heroImg} alt="Hero" />
+          <p><span className='dot'></span>Over 300 thousand young Africans have started their journey into tech with us</p>
         </div>
       </div>
       <div className="hero-footer wrapper">

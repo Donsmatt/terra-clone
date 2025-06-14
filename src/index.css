@@ -75,6 +75,15 @@ a {
   color: var(--clr-accent);
 }
 
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--clr-accent);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: var(--spacing-xs);
+}
+
 /* Button styles */
 
 .button {
@@ -168,6 +177,11 @@ a {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+}
+
+.hero-image p {
+  font-size: var(--fs-tiny);
+  margin-top: var(--spacing-xs);
 }
 
 .video-modal {
