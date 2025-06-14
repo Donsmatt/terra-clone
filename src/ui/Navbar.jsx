@@ -1,48 +1,42 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/Navbar.css";
 import logo from "../assets/images/logo.svg";
-import SignModal from "../components/SignModal";
+import Button from "../components/Button";
 
 const Navbar = () => {
-  const [modal, setModal] = useState(null);
-  // const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <>
-      <header className="nav">
-        {/* Logo and nav */}
-        <div className="nav__inner">
-          <a href="/" className="nav__logo">
-            <img src={logo} alt="Terra HQ" />
+    <header className="navbar">
+      <div className="wrapper navbar__container">
+        <div className="navbar__logo">
+          <a href="/">
+            <img src={logo} alt="Logo" />
           </a>
-          <nav className="nav__links-desktop">
-            <a href="/bootcamp">Bootcamp</a>
-            <a href="/blog">Blog</a>
-          </nav>
         </div>
-        {/* End logo and nav */}
 
-        {/* Navbar buttons */}
-        <div className="button">
-          <button
-            className="nav__btn nav__btn--signin"
-            onClick={() => setModal("signin")}
-          >
-            Login
-          </button>
-          <button
-            className="nav__btn nav__btn--signup"
-            onClick={() => setModal("signup")}
-          >
-            Sign Up
-          </button>
-        </div>
-      </header>
+        <nav className={`navbar__links ${menuOpen ? "open" : ""}`}>
+          <div className="navbar__links-left">
+            <a href="/bootcamp" onClick={() => setMenuOpen(false)}>Bootcamp</a>
+            <a href="/blog" onClick={() => setMenuOpen(false)}>Blog</a>
+          </div>
+          <div  className="navbar__links-right">
+            <a href="/login" onClick={() => setMenuOpen(false)}>Login</a>
+            <Button label="Sign up" onClick={() => setMenuOpen(false)} />
+          </div>
+        </nav>
 
-      {modal && <SignModal type={modal} onClose={() => setModal(null)} />}
-
-      {/* end navbar buttons */}
-    </>
+        <button
+          className={`hamburger ${menuOpen ? "open" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
+    </header>
   );
 };
 

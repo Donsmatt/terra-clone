@@ -6,8 +6,8 @@ import Navbar from "./ui/Navbar";
 const App = () => {
   return (
     <div>
+      <Navbar />
       <main>
-        <Navbar />
         <Hero />
         <WhatYouGain />
         <Testimonial/>

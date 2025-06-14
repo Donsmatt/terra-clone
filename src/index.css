@@ -64,6 +64,10 @@ a {
   transition: var(--transition);
 }
 
+main {
+  margin-top: 80px;
+}
+
 /* Utility styles */
 .wrapper {
   max-width: 1200px;
