@@ -1,6 +1,7 @@
 import { useState } from "react";
 import image from "../assets/images/dashboard.png";
 import "../styles/WhatYouGain.css";
+import FeatureCard from "../components/FeatureCard";
 
 const WhatYouGain = () => {
   const [perksOpen, setPerksOpen] = useState(false);
@@ -23,40 +24,7 @@ const WhatYouGain = () => {
           <button className="signUp desktop-only">Sign up for FREE</button>
         </div>
 
-        <div className="features-grid">
-          <div className="feature-box">
-            <h3>Earn a certificate</h3>
-            <p>
-              All Terra Learning finalists will be awarded a paid certificate of
-              completion at the end of the Internship.
-            </p>
-          </div>
-          <div className="feature-box">
-            <h3>Get hands-on experience</h3>
-            <p>
-              During the Terra Learning Internship, you will be assigned
-              projects and team assignments that will give you the needed
-              experience, and help you build your portfolio, teamwork, and
-              communication skills.
-            </p>
-          </div>
-          <div className="feature-box">
-            <h3>Learn from the very best</h3>
-            <p>
-              Learning is a wonderful experience, and learning from the best
-              makes everything ten times easier. The Terra Learning mentors and
-              lead instructors are all here to make your Internship experience
-              unforgettable.
-            </p>
-          </div>
-          <div className="feature-box">
-            <h3>Be a part of a startup</h3>
-            <p>
-              During the bootcamp, all Terra Learning finalists will have the
-              opportunity to build a fast-paced start-up.
-            </p>
-          </div>
-        </div>
+        <FeatureCard />
 
         {/* Mobile-only button after the grid */}
         <div className="mobile-only mobile-signup-button">

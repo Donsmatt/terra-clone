@@ -1,0 +1,14 @@
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Exactly two columns */
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .feature-container {
+    grid-template-columns: 1fr; /* Stack on small screens */
+  }
+}

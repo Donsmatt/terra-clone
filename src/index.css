@@ -37,6 +37,8 @@
   --spacing-xl: 32px;
   --spacing-xxl: 40px;
   --spacing-xxxl: 64px;
+  --spacing-xxxxl: 80px;
+  --spacing-xxxxxl: 100px;
 }
 
 * {
@@ -109,7 +111,7 @@ main {
 .hero {
   background-color: var(--clr-background);
   color: var(--clr-text);
-  padding: var(--spacing-xxxl) var(--spacing-lg);
+  padding: var(--spacing-xxxxxl) var(--spacing-lg);
   text-align: center;
 }
 

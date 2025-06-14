@@ -1,0 +1,48 @@
+.card__3 {
+  background-image: url("card-bg-lines.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  transition: transform 0.3s ease;
+  align-items: flex-start;
+}
+
+.card__3-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border-radius: calc(var(--border-radius) * 2);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.card__3-img img {
+  width: 1rem;
+  height: 1rem;
+  object-fit: contain;
+}
+
+.card__3-details h4 {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: var(--clr-text-dark);
+}
+
+.card__3-details p {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-normal);
+  line-height: 1.6;
+  text-align: left;
+  color: var(--clr-text-subheading);
+}
